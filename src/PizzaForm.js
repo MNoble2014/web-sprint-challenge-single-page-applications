@@ -48,13 +48,13 @@ function PizzaForm(props) {
                 </select>
 
                 <label>Bacon
-                    <input name="bacon" type="checkbox" checked={values.bacon onChange={onChange} />
+                    <input name="bacon" type="checkbox" checked={values.bacon} onChange={onChange} />
                 </label>
                 <label>Pepperoni
-                    <input name="pepperoni" type="checkbox" checked={values.pepperoni onChange={onChange} />
+                    <input name="pepperoni" type="checkbox" checked={values.pepperoni} onChange={onChange} />
                 </label>
                 <label>Mushrooms
-                    <input name="mushrooms" type="checkbox" checked={values.mushrooms onChange={onChange} />
+                    <input name="mushrooms" type="checkbox" checked={values.mushrooms} onChange={onChange} />
                 </label>
 
                 <label htmlFor="special">Special-selection</label>
