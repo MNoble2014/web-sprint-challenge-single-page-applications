@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowswerRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Form from "./components/Form";
-import Home from "./components/Homepage";
+import PizzaForm from "./PizzaForm.js";
+import HomePage from "./HomePage.js";
 
 const App =() => {
   return (
@@ -11,8 +11,8 @@ const App =() => {
         <Link to="/pizza"><button id="order-pizza">Order Pizza!</button></Link>
       </nav>
       <Switch>
-        <Route path="/pizza" component={Form} />
-        <Route path ="/" component={Home} />
+        <Route path="/pizza" component={PizzaForm} />
+        <Route path ="/" component={HomePage} />
       </Switch>
     </div>
   );
